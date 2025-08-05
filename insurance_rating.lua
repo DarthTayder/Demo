@@ -28,7 +28,7 @@ local function calculate_rate(age, has_accidents, coverage_level)
   -- Example use
   local age = 30
   local has_accidents = false
-  local coverage_level = "premium"  -- options: "basic", "standard", "premium", these are arbitrary values I made up for the sake of this. 
+  local coverage_level = "premium"  -- options: "standard", "premium", these are arbitrary values I made up for the sake of this. 
   
   local premium = calculate_rate(age, has_accidents, coverage_level)
   print("Calculated premium: $" .. premium)
