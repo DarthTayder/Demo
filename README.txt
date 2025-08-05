@@ -8,7 +8,7 @@ This project contains a simple Lua script that simulates how an insurance premiu
     A Lua script that calculates an insurance premium based on:  
     - Customer age  
     - Accident history  
-    - Coverage level (basic, standard, premium)
+    - Coverage level (standard, premium)
 
 - formConfig.ts 
     A TypeScript module defining the quote form fields, including:
